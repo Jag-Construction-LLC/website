@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 export const siteTitle = 'Jag Construction';
 
@@ -21,7 +22,10 @@ export default function Layout({ children, home }) {
         </Head>
 
         <Navbar />
+
         <main>{ children }</main>
+
+        <Footer />
         
         </div>
     );
