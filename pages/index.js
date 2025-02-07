@@ -4,8 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import About from '../components/About';
 import coverImg from '../public/images/construction.jpg';
+import heroImg2 from '../public/images/army.jpg';
 
 export default function Home() {
+
     return (
         <Layout home>
 
@@ -47,7 +49,8 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="py-10 bg-gray-100">
+        { /* Brief services section */}
+        <section className="pt-10 bg-gray-100">
             <div 
                 className="max-w-screen-xl flex flex-col items-center 
                     justify-between p-4 space-y-10 md:space-y-0
@@ -133,9 +136,9 @@ export default function Home() {
             </div>
         </section>
 
-        {/* Additional content that appears when scrolling down */}
-        <section id="about" className="py-5 bg-gray-100">
-            <div className="mx-auto max-w-screen-xl px-4 mb-10">
+        {/* About section */}
+        <section id="about" className="py-15 bg-gray-100 scroll-mt-20">
+            <div className="mx-auto max-w-screen-xl px-4">
                 <h2 className="mb-4 text-xl font-semibold text-green-900">
                     WHO WE ARE
                 </h2>
@@ -187,7 +190,50 @@ export default function Home() {
                 <p className="text-gray-700 font-bold text-lg">
                     Let's build the future together.
                 </p>
-                {/* More content… */}
+            </div>
+        </section>
+
+        {/* Hero Section 2 with Full Screen Background */}
+        <section className="relative h-screen">
+            {/* Background Image */}
+            <Image
+                src={heroImg2}
+                alt="Background Image"
+                layout="fill"
+                objectFit="cover"
+                // Place the image behind other content and allow clicks to pass through.
+                className="absolute inset-0 pointer-events-none"
+            />
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
+            {/* Centered overlay content */}
+            <div 
+                className="relative z-10 flex h-full flex-col items-center 
+                    justify-center text-white px-4"
+            >
+                <h1 className="text-4xl font-bold text-center">
+                    Proudly Veteran Owned 
+                </h1>
+                <p className="mt-4 text-xl text-center">
+                    Building dreams from the ground up.
+                </p>
+                <Link
+                    href="#about"
+                    className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
+                        font-medium hover:bg-green-800"
+                >
+                    Learn More
+                </Link>
+            </div>
+        </section>
+
+        {/* Services section */}
+        <section id="services" className="pt-15 bg-gray-100">
+            <div className="mx-auto max-w-screen-xl px-4 pb-10">
+                <h2 className="mb-4 text-xl font-semibold text-green-900">
+                    WHAT WE DO
+                </h2>
+                
             </div>
         </section>
 
