@@ -5,25 +5,48 @@ import Image from 'next/image';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef(null);
+  const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            if (offset > 50) {
+                setScrolled(true);
+            }
+            else {
+                setScrolled(false);
+            }
+        };
 
-      if (navRef.current && !navRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-
-    document.addEventListener('mousedown', handleClickOutside);
+        window.addEventListener('scroll', handleScroll);
     
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+
+        if (navRef.current && !navRef.current.contains(event.target)) {
+            setIsOpen(false);
+        }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        
+        return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
   return (
-    <nav ref={navRef} className="border-gray-200 bg-green-950">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+    <nav 
+        ref={navRef} 
+        className={`
+            border-gray-200 fixed w-full top-0 left-0 right-0 z-50
+            transition-colors duration-300
+            ${scrolled ? 'bg-black/60' : 'bg-transparent'}
+        `}>
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link 
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -34,7 +57,7 @@ export default function Navbar() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded={isOpen}
         >
@@ -59,7 +82,7 @@ export default function Navbar() {
           className={`${isOpen ? "" : "hidden"} w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-thin text-lg flex flex-col p-4 md:p-0 mt-4 bg-green-950 md:bg-green-950 border border-gray-100 rounded-lg md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0">
+          <ul className="font-thin text-lg flex flex-col p-4 md:p-0 mt-4 bg-green-950 md:bg-transparent border border-gray-100 rounded-lg md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
               <Link 
                 href="#"

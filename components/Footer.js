@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-green-950">
-      <div className="mx-auto w-full max-w-screen-xl p-2 py-6">
+      <div className="mx-auto w-full max-w-screen-xl px-4 py-6">
         {/* Top section: Logo, social icons, and nav links */}
         <div className="flex flex-col items-center text-center md:flex-row md:justify-between md:text-left">
           {/* Logo and Social Icons */}

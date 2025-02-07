@@ -3,10 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useState, useEffect } from 'react';
 
 export const siteTitle = 'Jag Construction';
 
 export default function Layout({ children, home }) {
+
     return (
         <div>
         <Head>
@@ -21,7 +23,7 @@ export default function Layout({ children, home }) {
             <meta name="og:title" content={siteTitle} />
         </Head>
 
-        <Navbar />
+        <Navbar/>
 
         <main>{ children }</main>
 
