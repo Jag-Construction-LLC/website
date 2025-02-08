@@ -5,6 +5,7 @@ import Link from 'next/link';
 import About from '../components/About';
 import coverImg from '../public/images/construction.jpg';
 import heroImg2 from '../public/images/army.jpg';
+import usaLogo from '../public/images/usa.png';
 
 export default function Home() {
 
@@ -208,22 +209,23 @@ export default function Home() {
             <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
             {/* Centered overlay content */}
             <div 
-                className="relative z-10 flex h-full flex-col items-center 
-                    justify-center text-white px-4"
+                className="relative z-10 flex h-full flex-col md:flex-row items-center 
+                    justify-center text-white px-4 space-y-5 md:space-x-5
+                    md:space-y-0"
             >
-                <h1 className="text-4xl font-bold text-center">
-                    Proudly Veteran Owned 
+                <h1 className="text-3xl md:text-4xl font-bold">
+                    Proudly Veteran Owned.
                 </h1>
-                <p className="mt-4 text-xl text-center">
-                    Building dreams from the ground up.
-                </p>
-                <Link
-                    href="#about"
-                    className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
-                        font-medium hover:bg-green-800"
-                >
-                    Learn More
-                </Link>
+                <Image
+                    className="max-w-40"
+                    src={usaLogo}
+                    width={4182}
+                    height={2188}
+                    alt="usa logo"
+                />
+                <h2 className="text-3xl md:text-4xl font-bold">
+                    Serving our Country.
+                </h2>
             </div>
         </section>
 
