@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import Image from 'next/image';
 import Link from 'next/link';
 import About from '../components/About';
+import Services from '../components/Services';
 import coverImg from '../public/images/construction.jpg';
 import heroImg2 from '../public/images/army.jpg';
 import usaLogo from '../public/images/usa.png';
@@ -51,7 +52,7 @@ export default function Home() {
         </section>
 
         { /* Brief services section */}
-        <section className="pt-10 bg-gray-100">
+        <section className="pt-16 bg-gray-100">
             <div 
                 className="max-w-screen-xl flex flex-col items-center 
                     justify-between p-4 space-y-10 md:space-y-0
@@ -70,12 +71,12 @@ export default function Home() {
                     />
                     <div className="p-5">
                         <h5 
-                            className="mb-2 text-3xl font-bold tracking-tight 
+                            className="mb-2 text-2xl font-bold tracking-tight 
                                 text-green-900"
                         >
                             Advanced Estimation
                         </h5>
-                        <p className="mb-3 font-normal text-gray-700">
+                        <p className="font-normal text-gray-700">
                             Our unique approach to estimation leverages new 
                             technologies to provide precise estimates as quickly
                             as possible.
@@ -96,12 +97,12 @@ export default function Home() {
                     />
                     <div className="p-5">
                         <h5 
-                            className="mb-2 text-3xl font-bold tracking-tight 
+                            className="mb-2 text-2xl font-bold tracking-tight 
                                 text-green-900"
                         >
                             Full Service Construction
                         </h5>
-                        <p className="mb-3 font-normal text-gray-700">
+                        <p className="font-normal text-gray-700">
                             No project too big. Jag has what it takes to
                             bring any project to fruition, with unrivaled 
                             speed and efficiency.
@@ -122,12 +123,12 @@ export default function Home() {
                     />
                     <div className="p-5">
                         <h5 
-                            className="mb-2 text-3xl font-bold tracking-tight 
+                            className="mb-2 text-2xl font-bold tracking-tight 
                                 text-gray-900 text-white"
                         >
                             Free Consultation
                         </h5>
-                        <p className="mb-3 font-normal text-gray-100">
+                        <p className="font-normal text-gray-100">
                             Experience unmatched efficiency and hospitality.
                             Choose Jag for your next construction project.
                             Contact us today to get a free consultation.
@@ -157,14 +158,14 @@ export default function Home() {
                         className="flex flex-col md:flex-row md:space-x-10 my-5
                             md:mr-10">
                         <Image
-                            className="max-w-3xs md:max-w-3xs"
+                            className="max-w-50 md:max-w-60"
                             src="/images/jag-logo.png"
                             width={3643}
                             height={3643}
                             alt=""
                         />
                         <Image
-                            className="max-w-sm md:max-w-3xs"
+                            className="max-w-50 md:max-w-60"
                             src="/images/army-logo.svg"
                             width={255}
                             height={255}
@@ -174,18 +175,42 @@ export default function Home() {
                 </div>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                    With over 40 years of combined industry experience, our leadership has honed a unique blend of technical expertise and hands-on know-how that sets us apart. Our executives, with an impressive background in executive controls management, have successfully overseen the development of detailed estimates, budget deconstructions, change requests, and conceptual budgetary estimates for energy projects.
+                    With over 40 years of combined industry experience, our 
+                    leadership has honed a unique blend of technical expertise 
+                    and hands-on know-how that sets us apart. Our executives, 
+                    with an impressive background in executive controls management, 
+                    have successfully overseen the development of detailed estimates, 
+                    budget deconstructions, change requests, and conceptual 
+                    budgetary estimates for energy projects.
+                </p>
+                <br/>
+                <p className="text-gray-700 text-lg">
+                    We harness a unique blend of veteran expertise, cutting-edge
+                    technology, and a steadfast commitment to excellence. Our 
+                    strengths form the foundation of every project, empowering us 
+                    to transform your vision into reality with precision, reliability, 
+                    and outstanding value.
                 </p>
 
                 <About/>
                 
 
                 <p className="text-gray-700 text-lg">
-                    Our commitment extends beyond technical excellence. We pride ourselves on delivering exceptional hospitality and personalized service to every client. By leveraging the latest technology, we streamline our processes to ensure that every project is estimated with efficiency and precision—allowing us to meet deadlines and budgets without compromising quality.
+                    Our commitment extends beyond technical excellence. We pride 
+                    ourselves on delivering exceptional hospitality and personalized 
+                    service to every client. By leveraging the latest technology, 
+                    we streamline our processes to ensure that every project is 
+                    estimated with efficiency and precision—allowing us to meet 
+                    deadlines and budgets without compromising quality.
                 </p>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                    At Jag Construction, every project is a testament to our core values: integrity, innovation, and a commitment to building lasting relationships. Whether it's a high-profile energy initiative or a transformative civil project, we bring our veteran spirit and expert insight to deliver results that stand the test of time.
+                    At Jag Construction, every project is a testament to our core 
+                    values: integrity, innovation, and a commitment to building 
+                    lasting relationships. Whether it's a high-profile energy 
+                    initiative or a transformative civil project, we bring our 
+                    veteran spirit and expert insight to deliver results that 
+                    stand the test of time.
                 </p>
                 <br/>
                 <p className="text-gray-700 font-bold text-lg">
@@ -230,12 +255,41 @@ export default function Home() {
         </section>
 
         {/* Services section */}
-        <section id="services" className="pt-15 bg-gray-100">
+        <section id="services" className="pt-15 bg-gray-100 scroll-mt-20">
             <div className="mx-auto max-w-screen-xl px-4 pb-10">
                 <h2 className="mb-4 text-xl font-semibold text-green-900">
                     WHAT WE DO
                 </h2>
+                <p className="text-gray-700 text-lg">
+                    At Jag Construction, our service offerings are designed to 
+                    bring your project to life with unmatched precision, efficiency, 
+                    and innovation. Backed by decades of industry experience and 
+                    a veteran-led approach, we combine cutting-edge technology 
+                    with time-tested expertise to ensure every project is delivered 
+                    to the highest standard—from initial concept through to completion.
+                </p>
+                <br/>
+                <p className="text-gray-700 text-lg">
+                We blend veteran leadership with cutting-edge 
+                technology to offer a full spectrum of solutions tailored to your 
+                project's unique needs. Our comprehensive suite of services—ranging 
+                from detailed cost estimating and strategic pre-construction planning 
+                to expert project management and facility upgrades—ensures precision, 
+                efficiency, and excellence at every phase.
+                </p>
+
+                <Services/>
                 
+                <p className="text-gray-700 text-lg">
+                    Our comprehensive suite of services is just the beginning. 
+                    At Jag Construction, we are committed to building strong, 
+                    lasting partnerships with our clients. We understand that 
+                    each project is unique, which is why we customize our approach 
+                    to fit your vision and operational requirements. Let us help 
+                    you transform your ideas into reality with quality craftsmanship 
+                    and a dedication to excellence that only a veteran-led team 
+                    can provide.
+                </p>
             </div>
         </section>
 

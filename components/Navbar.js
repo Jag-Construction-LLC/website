@@ -94,11 +94,12 @@ export default function Navbar() {
                     <ul 
                         className="font-thin text-lg flex flex-col p-4 md:p-0 mt-4 
                             bg-green-950 md:bg-transparent border border-gray-100 
-                            rounded-lg md:flex-row md:space-x-10 rtl:space-x-reverse 
+                            rounded-sm md:flex-row md:space-x-10 rtl:space-x-reverse 
                             md:mt-0 md:border-0"
                     >
                         <li>
                             <Link 
+                                onClick={() => setIsOpen(false)}
                                 href="/"
                                 className="block py-2 px-3 text-white rounded-sm 
                                     hover:bg-gray-100 hover:text-green-950 
@@ -110,6 +111,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <Link 
+                                onClick={() => setIsOpen(false)}
                                 href="#about"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
@@ -121,6 +123,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <Link 
+                                onClick={() => setIsOpen(false)}
                                 href="#services"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
@@ -132,6 +135,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <Link 
+                                onClick={() => setIsOpen(false)}
                                 href="#"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 

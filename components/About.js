@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-        <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 my-10">
-            <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Strengths</h2>
-            <p className="mb-7 text-lg text-gray-500">Here are a few of Jag's biggest strengths.</p>
+        <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 my-16">
+            <h2 className="mb-2 text-3xl font-semibold leading-tight text-center text-gray-900">Strengths for success</h2>
+            <p className="max-w-md mx-auto mb-10 text-center text-gray-500">Discover the key attributes that set us apart and drive our unwavering dedication to delivering superior results.</p>
             <div className="w-full">
                 <div className="flex flex-col w-full mb-10 sm:flex-row">
                     <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
