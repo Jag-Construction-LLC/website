@@ -136,7 +136,7 @@ export default function Navbar() {
                         <li>
                             <Link 
                                 onClick={() => setIsOpen(false)}
-                                href="#"
+                                href="#contact"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
                                 md:hover:bg-transparent md:border-0 md:hover:underline 

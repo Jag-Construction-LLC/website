@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <footer className="bg-green-950">
-            <div className="mx-auto w-full max-w-screen-xl px-4 py-6">
+            <div className="mx-auto w-full max-w-screen-xl px-4 pt-12 pb-7">
                 {/* Top section: Logo, social icons, and nav links */}
                 <div 
                     className="flex flex-col items-center text-center 
@@ -26,18 +26,18 @@ export default function Footer() {
                         <div className="flex justify-center mt-5 space-x-5">
                             <Link 
                                 href="#"
-                                className="text-gray-300 hover:text-blue-800"
+                                className="text-gray-300 hover:text-blue-500"
                             >
                                 <svg
                                     className="w-6 h-6"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
-                                    viewBox="0 0 8 19"
+                                    viewBox="0 2.75 18 18"
                                 >
                                     <path
                                         fillRule="evenodd"
-                                        d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                        d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z"
                                         clipRule="evenodd"
                                     />
                                 </svg>
@@ -74,8 +74,6 @@ export default function Footer() {
                                 </svg>
                                 <span className="sr-only">Instagram page</span>
                             </Link>
-
-
                         </div>
                     </div>
 
@@ -103,7 +101,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="/"
+                                            href="#services"
                                             className="hover:underline"
                                         >
                                             Services
@@ -111,7 +109,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="https://tailwindcss.com/"
+                                            href="#contact"
                                             className="hover:underline"
                                         >
                                             Contact
@@ -130,7 +128,7 @@ export default function Footer() {
                                 <ul className="text-gray-300 font-thin space-y-4">
                                     <li>
                                         <Link 
-                                            href="https://github.com/themesberg/flowbite"
+                                            href=""
                                             className="hover:underline"
                                         >
                                             Facebook
@@ -138,7 +136,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="https://discord.gg/4eeurUVvTy"
+                                            href=""
                                             className="hover:underline"
                                         >
                                             LinkedIn
@@ -146,7 +144,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="https://discord.gg/4eeurUVvTy"
+                                            href=""
                                             className="hover:underline"
                                         >
                                             Instagram

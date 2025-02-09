@@ -4,8 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import About from '../components/About';
 import Services from '../components/Services';
+import Contact from '../components/Contact';
 import coverImg from '../public/images/construction.jpg';
 import heroImg2 from '../public/images/army.jpg';
+import heroImg3 from '../public/images/construction3.jpg';
 import usaLogo from '../public/images/usa.png';
 
 export default function Home() {
@@ -44,7 +46,7 @@ export default function Home() {
                 <Link
                     href="#about"
                     className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
-                        font-medium hover:bg-green-800"
+                        font-medium hover:bg-green-800 transition duration-200"
                 >
                     Learn More
                 </Link>
@@ -55,7 +57,7 @@ export default function Home() {
         <section className="pt-16 bg-gray-100">
             <div 
                 className="max-w-screen-xl flex flex-col items-center 
-                    justify-between p-4 space-y-10 md:space-y-0
+                    justify-between px-4 space-y-10 md:space-y-0
                     md:flex-row mx-auto md:min-width-10 md:items-stretch"
             >
                 <div 
@@ -139,7 +141,7 @@ export default function Home() {
         </section>
 
         {/* About section */}
-        <section id="about" className="py-15 bg-gray-100 scroll-mt-20">
+        <section id="about" className="py-16 bg-gray-100 scroll-mt-20">
             <div className="mx-auto max-w-screen-xl px-4">
                 <h2 className="mb-4 text-xl font-semibold text-green-900">
                     WHO WE ARE
@@ -255,8 +257,8 @@ export default function Home() {
         </section>
 
         {/* Services section */}
-        <section id="services" className="pt-15 bg-gray-100 scroll-mt-20">
-            <div className="mx-auto max-w-screen-xl px-4 pb-10">
+        <section id="services" className="py-16 bg-gray-100 scroll-mt-20">
+            <div className="mx-auto max-w-screen-xl px-4">
                 <h2 className="mb-4 text-xl font-semibold text-green-900">
                     WHAT WE DO
                 </h2>
@@ -291,6 +293,68 @@ export default function Home() {
                     can provide.
                 </p>
             </div>
+        </section>
+
+        {/* Hero Section 3 with Full Screen Background */}
+        <section className="relative h-screen">
+            {/* Background Image */}
+            <Image
+                src={heroImg3}
+                alt="Background Image"
+                layout="fill"
+                objectFit="cover"
+                // Place the image behind other content and allow clicks to pass through.
+                className="absolute inset-0 pointer-events-none"
+            />
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
+            {/* Centered overlay content */}
+            <div 
+                className="relative z-10 flex h-full flex-col items-center 
+                    justify-center text-white px-4 space-y-0"
+            >
+                <h1 className="text-3xl md:text-4xl font-bold">
+                    Lets get your project started.
+                </h1>
+                <p className="max-w-xl mt-4 text-lg text-center">
+                Discover how our veteran-led team's unique strengths and steadfast 
+                commitment to exceptional craftsmanship seamlessly transform your 
+                vision into extraordinary reality.
+                </p>
+                <Link
+                    href="#contact"
+                    className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
+                        font-medium hover:bg-green-800 transition duration-200"
+                >
+                    Contact Us
+                </Link>
+            </div>
+        </section>
+
+        {/* Contact section */}
+        <section id="contact" className="bg-gray-100 scroll-mt-20 pb-20">
+            <div className="mx-auto max-w-screen-xl px-4 py-16">
+                <h2 className="mb-4 text-xl font-semibold text-green-900">
+                    HOW TO REACH US
+                </h2>
+                <p className="text-gray-700 text-lg">
+                At Jag Construction, we believe in building strong foundations—both 
+                in our projects and in our relationships. Whether you have questions, 
+                need expert advice, or are ready to start your next project, we're 
+                here to help. Our veteran-led team is dedicated to delivering 
+                excellence and innovation at every step of your construction journey.
+                </p>
+                <br/>
+                <p className="text-gray-700 text-lg">
+                We're passionate about transforming your vision into reality, and 
+                our talented team is ready to help every step of the way. Please 
+                use the contact information below to share your project details or 
+                ask any questions. We look forward to connecting with you soon!
+                </p>
+            </div>
+
+            <Contact/>
+
         </section>
 
         </Layout>
