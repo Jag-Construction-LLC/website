@@ -148,7 +148,7 @@ export default function Home() {
                 </h2>
                 <h1 className="text-4xl font-bold mb-5">
                     Jag Construction is a veteran-owned company with over 40
-                    years of combined expererience in project construction.
+                    years of combined experience in project construction.
                 </h1>
                 <div className="flex flex-row items-center justify-between">
                     <p className="max-w-xl text-gray-700 text-lg">
@@ -314,7 +314,7 @@ export default function Home() {
                     justify-center text-white px-4 space-y-0"
             >
                 <h1 className="text-3xl md:text-4xl font-bold">
-                    Lets get your project started.
+                    Let's get your project started.
                 </h1>
                 <p className="max-w-xl mt-4 text-lg text-center">
                 Discover how our veteran-led team's unique strengths and steadfast 

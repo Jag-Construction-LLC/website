@@ -100,7 +100,7 @@ export default function Contact() {
 
                                 <div className="w-full mt-6">
                                     <label className="block mb-2 text-sm text-gray-600">Message <span className="text-red-500">*</span></label>
-                                    <textarea required className="block w-full h-32 max-h-38 md:max-h-72 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-green-600 focus:ring-green-500 focus:ring-opacity-40 focus:outline-none focus:ring" placeholder="Message"></textarea>
+                                    <textarea required className="block w-full h-32 max-h-38 md:max-h-30 lg:max-h-72 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-green-600 focus:ring-green-500 focus:ring-opacity-40 focus:outline-none focus:ring" placeholder="Message"></textarea>
                                 </div>
 
                                 <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-md hover:bg-green-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
