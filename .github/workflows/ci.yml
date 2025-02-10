@@ -1,0 +1,36 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Start Next.js server
+        run: npm run start &
+
+      - name: Wait for server to be active
+        run: npx wait-on http://localhost:3000
+
+      - name: Run Playright tests
+        run: npx playwright test
