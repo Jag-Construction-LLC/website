@@ -1,34 +1,26 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { useState, useEffect } from 'react';
 
 export const siteTitle = 'Jag Construction';
+export const siteDescription = 'The Jag Construction LLC company website';
 
 export default function Layout({ children, home }) {
 
     return (
         <div>
-        <Head>
-            <link rel="icon" href="/favicon.svg" />
-            <meta
-            name="description"
-            content="Jag Construction LLC company website"
-            />
-            <meta
-            property="og:image"
-            content="/favicon.svg"/>
-            <meta name="og:title" content={siteTitle} />
-        </Head>
+            <Head>
+                <meta property="og:title" content={siteTitle} />
+                <meta property="og:description" content={siteDescription} />
+                <meta property="og:image" content="/favicon.svg" />
+                <link rel="icon" href="/favicon3.svg" />
+            </Head>
 
-        <Navbar/>
+            <Navbar/>
 
-        <main>{ children }</main>
+            <main>{ children }</main>
 
-        <Footer />
-        
+            <Footer />
         </div>
     );
 }

@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@hcaptcha/react-hcaptcha": "^1.11.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"

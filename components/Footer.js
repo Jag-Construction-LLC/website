@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import whiteJag from '../public/favicon.svg';
+import whiteJagText from '../public/favicon2.svg';
 
 export default function Footer() {
     const year = new Date().getFullYear();
@@ -19,13 +21,13 @@ export default function Footer() {
                             className="flex flex-row items-center md:flex-row 
                                 md:items-center space-y-2 md:space-y-2 md:space-x-3"
                         >
-                            <Image src="/favicon4.svg" width={85} height={85} alt="Jag C Logo" />
-                            <Image src="/favicon3.svg" width={100} height={100} alt="Jag C Logo" />
+                            <Image src={whiteJag} width={85} height={85} alt="Jag C Logo" />
+                            <Image src={whiteJagText} width={100} height={100} alt="Jag C Logo" />
                         </Link>
 
                         <div className="flex justify-center mt-5 space-x-5">
                             <Link 
-                                href="#"
+                                href="/"
                                 className="text-gray-300 hover:text-blue-500"
                             >
                                 <svg
@@ -44,7 +46,7 @@ export default function Footer() {
                                 <span className="sr-only">Facebook page</span>
                             </Link>
                             <Link 
-                                href="#"
+                                href="/"
                                 className="text-gray-300 hover:text-sky-600">
                                 <svg
                                     className="w-6 h-6"
@@ -58,7 +60,7 @@ export default function Footer() {
                                 <span className="sr-only">LinkedIn page</span>
                             </Link>
                             <Link 
-                                href="#"
+                                href="/"
                                 className="text-gray-300 hover:bg-gradient-to-r 
                                     from-[#833ab4] via-[#fd1d1d] to-[#fcb045] 
                                     hover:rounded-lg"
@@ -101,7 +103,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="#services"
+                                            href="/#services"
                                             className="hover:underline"
                                         >
                                             Services
@@ -109,7 +111,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="#contact"
+                                            href="/#contact"
                                             className="hover:underline"
                                         >
                                             Contact
@@ -163,7 +165,7 @@ export default function Footer() {
                                 <ul className="text-gray-300 font-thin space-y-4">
                                     <li>
                                         <Link 
-                                            href="#"
+                                            href="/"
                                             className="hover:underline"
                                         >
                                             Privacy Policy
@@ -171,7 +173,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="#"
+                                            href="/"
                                             className="hover:underline"
                                         >
                                             Terms &amp; Conditions

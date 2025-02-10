@@ -44,7 +44,7 @@ export default function Home() {
                     Building dreams from the ground up.
                 </p>
                 <Link
-                    href="#about"
+                    href="/#about"
                     className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
                         font-medium hover:bg-green-800 transition duration-200"
                 >
@@ -322,7 +322,7 @@ export default function Home() {
                 vision into extraordinary reality.
                 </p>
                 <Link
-                    href="#contact"
+                    href="/#contact"
                     className="mt-6 rounded bg-transparent border px-6 py-2 text-lg 
                         font-medium hover:bg-green-800 transition duration-200"
                 >

@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import whiteJag from '../public/favicon.svg';
+import whiteJagText from '../public/favicon2.svg';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -49,14 +51,14 @@ export default function Navbar() {
         >
             <div 
                 className="max-w-screen-xl flex flex-wrap items-center 
-                    justify-between mx-auto p-4"
+                    justify-between mx-auto px-4 pb-4 md:pb-0"
             >
                 <Link 
                     href="/"
                     className="flex items-center space-x-3 rtl:space-x-reverse"
                 >
-                    <Image src="/favicon4.svg" width={85} height={85} alt="Jag C Logo" />
-                    <Image src="/favicon3.svg" width={100} height={100} alt="Jag C Logo" />
+                    <Image src={whiteJag} width={85} height={85} alt="Jag C Logo" />
+                    <Image src={whiteJagText} width={100} height={100} alt="Jag C Logo" />
                 </Link>
 
                 <button
@@ -112,7 +114,7 @@ export default function Navbar() {
                         <li>
                             <Link 
                                 onClick={() => setIsOpen(false)}
-                                href="#about"
+                                href="/#about"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
                                 md:hover:bg-transparent md:border-0 md:hover:underline 
@@ -124,7 +126,7 @@ export default function Navbar() {
                         <li>
                             <Link 
                                 onClick={() => setIsOpen(false)}
-                                href="#services"
+                                href="/#services"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
                                 md:hover:bg-transparent md:border-0 md:hover:underline 
@@ -136,7 +138,7 @@ export default function Navbar() {
                         <li>
                             <Link 
                                 onClick={() => setIsOpen(false)}
-                                href="#contact"
+                                href="/#contact"
                                 className="block py-2 px-3 text-white rounded-sm 
                                 hover:bg-gray-100 hover:text-green-950 
                                 md:hover:bg-transparent md:border-0 md:hover:underline 
