@@ -56,7 +56,7 @@ export default function ContactForm() {
     };
 
     return(
-        <div className="mt-8 lg:w-1/2 lg:mx-6">
+        <div className="mt-8 md:mt-0 lg:w-1/2 lg:mx-6">
             <div className="w-full px-8 py-5 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl lg:max-w-xl">
                 <h1 className="text-xl font-medium text-gray-700">Contact Form</h1>
 
@@ -73,7 +73,7 @@ export default function ContactForm() {
 
                     <div className="w-full mt-2">
                         <label htmlFor="message" className="block mb-2 text-sm text-gray-600">Message <span className="text-red-500">*</span></label>
-                        <textarea name="message" required className="block w-full h-32 max-h-20 md:max-h-15 lg:max-h-72 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-green-600 focus:ring-green-500 focus:ring-opacity-40 focus:outline-none focus:ring" placeholder="Tell us about your project..."></textarea>
+                        <textarea name="message" required className="block w-full h-32 max-h-40 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-green-600 focus:ring-green-500 focus:ring-opacity-40 focus:outline-none focus:ring" placeholder="Tell us about your project..."></textarea>
                     </div>
 
                     <HCaptcha
