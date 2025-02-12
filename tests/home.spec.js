@@ -3,8 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 test('Homepage loads and displays key content', async ({ page }) => {
 
-  await page.goto('/');
-
+  await page.goto('/'); 
   await expect(page).toHaveTitle(/Jag Construction/i);
 
   // const heroHeading = page.locator('section.relative.h-screen h1');
