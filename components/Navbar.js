@@ -57,8 +57,8 @@ export default function Navbar() {
                     href="/"
                     className="flex items-center space-x-3 rtl:space-x-reverse"
                 >
-                    <Image src={whiteJag} width={85} height={85} alt="Jag C Logo" />
-                    <Image src={whiteJagText} width={100} height={100} alt="Jag C Logo" />
+                    <Image src={whiteJag} width={85} height={85} alt="Jag Jaguar Logo" />
+                    <Image src={whiteJagText} width={100} height={100} alt="Jag Text Logo" />
                 </Link>
 
                 <button

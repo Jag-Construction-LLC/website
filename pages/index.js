@@ -24,7 +24,7 @@ export default function Home() {
             {/* Background Image */}
             <Image
                 src={coverImg}
-                alt="Background Image"
+                alt="Home Background Image"
                 layout="fill"
                 objectFit="cover"
                 // Place the image behind other content and allow clicks to pass through.
@@ -67,7 +67,7 @@ export default function Home() {
                     <Image 
                         className="rounded-t-sm" 
                         src="/images/estimation.jpg" 
-                        alt=""
+                        alt="Estimation"
                         width={1279}
                         height={730}  
                     />
@@ -93,7 +93,7 @@ export default function Home() {
                     <Image 
                         className="rounded-t-sm" 
                         src="/images/construction2.jpg" 
-                        alt=""
+                        alt="Full Service Construction"
                         width={1279}
                         height={730}  
                     />
@@ -119,7 +119,7 @@ export default function Home() {
                     <Image 
                         className="rounded-t-sm" 
                         src="/images/consultation.jpg" 
-                        alt=""
+                        alt="Free Consultation"
                         width={1279}
                         height={730} 
                     />
@@ -164,14 +164,14 @@ export default function Home() {
                             src="/images/jag-logo.png"
                             width={3643}
                             height={3643}
-                            alt=""
+                            alt="JAG Logo"
                         />
                         <Image
                             className="max-w-50 md:max-w-60"
                             src="/images/army-logo.svg"
                             width={255}
                             height={255}
-                            alt=""
+                            alt="Army Logo"
                         />
                     </div>
                 </div>
@@ -226,7 +226,7 @@ export default function Home() {
             {/* Background Image */}
             <Image
                 src={heroImg2}
-                alt="Background Image"
+                alt="About Background Image"
                 layout="fill"
                 objectFit="cover"
                 // Place the image behind other content and allow clicks to pass through.
@@ -248,7 +248,7 @@ export default function Home() {
                     src={usaLogo}
                     width={4182}
                     height={2188}
-                    alt="usa logo"
+                    alt="USA Logo"
                 />
                 <h2 className="text-3xl md:text-4xl font-bold">
                     Serving our Country.
@@ -300,7 +300,7 @@ export default function Home() {
             {/* Background Image */}
             <Image
                 src={heroImg3}
-                alt="Background Image"
+                alt="Contact Background Image"
                 layout="fill"
                 objectFit="cover"
                 // Place the image behind other content and allow clicks to pass through.

@@ -25,3 +25,113 @@ test('Homepage loads and displays key content', async ({ page }) => {
   const contactSection = page.locator('#contact');
   await expect(contactSection).toBeVisible();
 });
+
+test('Jag jaguar company logo image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Jag Jaguar Logo"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Jag text company logo image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Jag Text Logo"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Home hero image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Home Background Image"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('About hero image loads successfully', async ({ page }) => {
+    await page.goto('/#about');
+    const testImage = page.locator('img[alt="About Background Image"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('USA logo image loads successfully', async ({ page }) => {
+    await page.goto('/#about');
+    const testImage = page.locator('img[alt="USA Logo"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Contact hero image loads successfully', async ({ page }) => {
+    await page.goto('/#services');
+    const testImage = page.locator('img[alt="Contact Background Image"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Estimation image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Estimation"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Full service construction image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Full Service Construction"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Free consultation image loads successfully', async ({ page }) => {
+    await page.goto('/');
+    const testImage = page.locator('img[alt="Free Consultation"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Official JAG logo image loads successfully', async ({ page }) => {
+    await page.goto('/#about');
+    const testImage = page.locator('img[alt="JAG Logo"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
+
+test('Army logo image loads successfully', async ({ page }) => {
+    await page.goto('/#about');
+    const testImage = page.locator('img[alt="Army Logo"]');
+    await testImage.scrollIntoViewIfNeeded();
+    await expect(testImage).toBeVisible();
+    const bbox = await testImage.boundingBox();
+    expect(bbox.width).toBeGreaterThan(0);
+    expect(bbox.height).toBeGreaterThan(0);
+});
