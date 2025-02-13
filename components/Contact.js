@@ -7,7 +7,7 @@ export default function Contact() {
 
     return (
 
-        <section class="min-h-screen bg-gradient-to-r from-green-600 via-green-800 to-green-900">
+        <section className="min-h-screen bg-gradient-to-r from-green-600 via-green-800 to-green-900">
             <div className="relative container flex flex-col min-h-screen px-6 py-12 mx-auto max-w-screen-xl">
                 <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
                     <div className="text-white lg:w-1/2 lg:mx-6">
