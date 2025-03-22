@@ -61,32 +61,6 @@ export default function Home() {
                     md:flex-row mx-auto md:min-width-10 md:items-stretch"
             >
                 <div 
-                    className="max-w-sm bg-white border border-gray-200 rounded-sm 
-                        shadow-sm hover:shadow-lg"
-                >
-                    <Image 
-                        className="rounded-t-sm" 
-                        src="/images/estimation.jpg" 
-                        alt="Estimation"
-                        width={1279}
-                        height={730}  
-                    />
-                    <div className="p-5">
-                        <h5 
-                            className="mb-2 text-2xl font-bold tracking-tight 
-                                text-green-900"
-                        >
-                            Advanced Estimation
-                        </h5>
-                        <p className="font-normal text-gray-700">
-                            Our unique approach to estimation leverages new 
-                            technologies to provide precise estimates as quickly
-                            as possible.
-                        </p>
-                    </div>
-                </div>
-
-                <div 
                     className="max-w-sm bg-white border border-gray-200 rounded-sm
                         shadow-sm hover:shadow-lg"
                 >
@@ -111,6 +85,31 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
+                <div 
+                    className="max-w-sm bg-white border border-gray-200 rounded-sm 
+                        shadow-sm hover:shadow-lg"
+                >
+                    <Image 
+                        className="rounded-t-sm" 
+                        src="/images/estimation.jpg" 
+                        alt="Estimation"
+                        width={1279}
+                        height={730}  
+                    />
+                    <div className="p-5">
+                        <h5 
+                            className="mb-2 text-2xl font-bold tracking-tight 
+                                text-green-900"
+                        >
+                            Advanced Project Management & Controls
+                        </h5>
+                        <p className="font-normal text-gray-700">
+                            Our process integrates the strategic application of tools, techniques, and expertise to plan, monitor, and
+                            execution of projects, ensuring they are completed on time, within budget, and to the highest quality
+                            standards.
+                        </p>
+                    </div>
+                </div>
 
                 <div 
                     className="max-w-sm bg-green-900 border border-gray-200 rounded-sm 
@@ -128,12 +127,11 @@ export default function Home() {
                             className="mb-2 text-2xl font-bold tracking-tight 
                                 text-gray-900 text-white"
                         >
-                            Free Consultation
+                            Collaboration
                         </h5>
                         <p className="font-normal text-gray-100">
-                            Experience unmatched efficiency and hospitality.
-                            Choose Jag for your next construction project.
-                            Contact us today to get a free consultation.
+                            Our skilled professionals collaborate closely with you, thoroughly reviewing every detail of your
+                            project to align with your standards and budget.
                         </p>
                     </div>
                 </div>
@@ -147,14 +145,19 @@ export default function Home() {
                     WHO WE ARE
                 </h2>
                 <h1 className="text-4xl font-bold mb-5">
-                    Jag Construction is a veteran-owned company with over 40
-                    years of combined experience in project construction.
+                    Jag Construction is a veteran-owned business bringing over 40 years of collective expertise to the
+                    construction industry.
                 </h1>
                 <div className="flex flex-row items-center justify-between">
                     <p className="max-w-xl text-gray-700 text-lg">
-                        At Jag, we're more than just a construction firm—we're a team of seasoned professionals committed to excellence, innovation, and service. 
+                        Jag Construction is a veteran-owned business with over 40 years of collective expertise in delivering top-
+                        tier construction across all trades.
                         <br/><br/>
-                        Proudly veteran-owned, our company is named “Jag” after the military term for JAG, honoring our heritage and the legacy of disciplined service that continues to guide our work every day.
+                        At Jag, we're more than a construction company—we're a team of skilled professionals united by a
+                        passion for craftsmanship, innovation, and client-focused service.
+                        <br/><br/>
+                        Named “Jag” in honor of the military term JAG, our proudly veteran-owned company carries forward a
+                        tradition of discipline and dedication that defines our work every day.
                     </p>
                     <div 
                         className="flex flex-col md:flex-row md:space-x-10 my-5
@@ -177,42 +180,32 @@ export default function Home() {
                 </div>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                    With over 40 years of combined industry experience, our 
-                    leadership has honed a unique blend of technical expertise 
-                    and hands-on know-how that sets us apart. Our executives, 
-                    with an impressive background in executive controls management, 
-                    have successfully overseen the development of detailed estimates, 
-                    budget deconstructions, change requests, and conceptual 
-                    budgetary estimates for energy projects.
+                    With over four decades of combined experience, our leadership brings deep knowledge and hands-on
+                    mastery across every facet of construction—from carpentry and masonry to electrical, plumbing, and
+                    beyond. We specialize in bringing together the full spectrum of trades to create seamless, high-quality
+                    builds tailored to your vision.
                 </p>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                    We harness a unique blend of veteran expertise, cutting-edge
-                    technology, and a steadfast commitment to excellence. Our 
-                    strengths form the foundation of every project, empowering us 
-                    to transform your vision into reality with precision, reliability, 
-                    and outstanding value.
+                    We fuse veteran-driven expertise with advanced project management and cutting-edge project controls
+                    to deliver exceptional results. This powerful combination ensures every project is executed with
+                    precision, reliability, and unmatched value, transforming your ideas into reality.
                 </p>
 
                 <About/>
-                
 
                 <p className="text-gray-700 text-lg">
-                    Our commitment extends beyond technical excellence. We pride 
-                    ourselves on delivering exceptional hospitality and personalized 
-                    service to every client. By leveraging the latest technology, 
-                    we streamline our processes to ensure that every project is 
-                    estimated with efficiency and precision—allowing us to meet 
-                    deadlines and budgets without compromising quality.
+                    Our commitment goes beyond bricks and mortar. We pride ourselves on delivering warm hospitality and
+                    personalized service, making every client feel like part of the Jag family. Using advanced project
+                    management and project controls, we ensure every build is completed efficiently, on time, and to the
+                    highest standards—without compromise.
                 </p>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                    At Jag Construction, every project is a testament to our core 
-                    values: integrity, innovation, and a commitment to building 
-                    lasting relationships. Whether it's a high-profile energy 
-                    initiative or a transformative civil project, we bring our 
-                    veteran spirit and expert insight to deliver results that 
-                    stand the test of time.
+                    At Jag Construction, every project embodies our core values: integrity, ingenuity, and a dedication to
+                    building lasting relationships. Whether it's a custom home, a transformative commercial space, or a
+                    complex industrial facility, we bring our veteran spirit and trade expertise to deliver results that stand
+                    strong for generations.
                 </p>
                 <br/>
                 <p className="text-gray-700 font-bold text-lg">
@@ -263,34 +256,26 @@ export default function Home() {
                     WHAT WE DO
                 </h2>
                 <p className="text-gray-700 text-lg">
-                    At Jag Construction, our service offerings are designed to 
-                    bring your project to life with unmatched precision, efficiency, 
-                    and innovation. Backed by decades of industry experience and 
-                    a veteran-led approach, we combine cutting-edge technology 
-                    with time-tested expertise to ensure every project is delivered 
-                    to the highest standard—from initial concept through to completion.
+                    At Jag Construction, we bring your vision to life with a seamless blend of expert craftsmanship,
+                    innovative solutions, and disciplined execution. With decades of experience and a veteran-led
+                    perspective, we harness advanced project management and cutting-edge technology to deliver every
+                    project—big or small—with precision, efficiency, and uncompromising quality.
                 </p>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                We blend veteran leadership with cutting-edge 
-                technology to offer a full spectrum of solutions tailored to your 
-                project's unique needs. Our comprehensive suite of services—ranging 
-                from detailed cost estimating and strategic pre-construction planning 
-                to expert project management and facility upgrades—ensures precision, 
-                efficiency, and excellence at every phase.
+                    Our full-service approach covers every trade and phase of construction, tailored to your unique needs.
+                    From laying the groundwork to putting on the finishing touches, we combine hands-on expertise with
+                    strategic oversight to ensure your project is completed on time, within budget, and to the highest
+                    standards.
                 </p>
 
                 <Services/>
                 
                 <p className="text-gray-700 text-lg">
-                    Our comprehensive suite of services is just the beginning. 
-                    At Jag Construction, we are committed to building strong, 
-                    lasting partnerships with our clients. We understand that 
-                    each project is unique, which is why we customize our approach 
-                    to fit your vision and operational requirements. Let us help 
-                    you transform your ideas into reality with quality craftsmanship 
-                    and a dedication to excellence that only a veteran-led team 
-                    can provide.
+                    Our services are just the starting point. At Jag Construction, we're dedicated to forging strong, lasting
+                    partnerships with every client. We know no two projects are alike, so we adapt our approach to match
+                    your goals, timeline, and vision. With the grit of a veteran-led team and the precision of advanced
+                    project controls, we turn your concepts into reality—crafted to last and delivered with pride.
                 </p>
             </div>
         </section>
@@ -317,9 +302,8 @@ export default function Home() {
                     Let's get your project started.
                 </h1>
                 <p className="max-w-xl mt-4 text-lg text-center">
-                Discover how our veteran-led team's unique strengths and steadfast 
-                commitment to exceptional craftsmanship seamlessly transform your 
-                vision into extraordinary reality.
+                    Discover how our veteran-led team's unique strengths and steadfast commitment to exceptional
+                    craftsmanship seamlessly transform your vision into extraordinary reality.
                 </p>
                 <Link
                     href="/#contact"
@@ -338,18 +322,16 @@ export default function Home() {
                     HOW TO REACH US
                 </h2>
                 <p className="text-gray-700 text-lg">
-                At Jag Construction, we believe in building strong foundations—both 
-                in our projects and in our relationships. Whether you have questions, 
-                need expert advice, or are ready to start your next project, we're 
-                here to help. Our veteran-led team is dedicated to delivering 
-                excellence and innovation at every step of your construction journey.
+                    At Jag Construction, we believe in building strong foundations—both in our projects and in our
+                    relationships. Whether you have questions, need expert advice, or are ready to start your next project,
+                    we're here to help. Our veteran-led team is dedicated to delivering excellence and innovation at every
+                    step of your construction journey.
                 </p>
                 <br/>
                 <p className="text-gray-700 text-lg">
-                We're passionate about transforming your vision into reality, and 
-                our talented team is ready to help every step of the way. Please 
-                use the contact information below to share your project details or 
-                ask any questions. We look forward to connecting with you soon!
+                    We're passionate about transforming your vision into reality, and our talented team is ready to help
+                    every step of the way. Please use the contact information below to share your project details or ask any
+                    questions. We look forward to connecting with you soon!
                 </p>
             </div>
 

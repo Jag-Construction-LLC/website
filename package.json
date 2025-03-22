@@ -9,6 +9,7 @@
   "dependencies": {
     "@hcaptcha/react-hcaptcha": "^1.11.1",
     "next": "latest",
+    "playwright": "^1.51.1",
     "react": "latest",
     "react-dom": "latest"
   },

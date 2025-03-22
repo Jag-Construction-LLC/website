@@ -24,7 +24,7 @@ export default function Footer() {
                             <Image src={whiteJag} width={85} height={85} alt="Jag C Logo" />
                             <Image src={whiteJagText} width={100} height={100} alt="Jag C Logo" />
                         </Link>
-
+                        {/*
                         <div className="flex justify-center mt-5 space-x-5">
                             <Link 
                                 href="/"
@@ -77,6 +77,7 @@ export default function Footer() {
                                 <span className="sr-only">Instagram page</span>
                             </Link>
                         </div>
+                        */}
                     </div>
 
                     {/* Navigation Links */}
@@ -119,7 +120,7 @@ export default function Footer() {
                                     </li>
                                 </ul>
                             </div>
-
+                            {/*
                             <div>
                                 <h2 
                                     className="mb-6 text-sm font-semibold 
@@ -154,7 +155,7 @@ export default function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                            
+                            */}
                             <div>
                                 <h2 
                                     className="mb-6 text-sm font-semibold 
@@ -165,7 +166,7 @@ export default function Footer() {
                                 <ul className="text-gray-300 font-thin space-y-4">
                                     <li>
                                         <Link 
-                                            href="/"
+                                            href="/privacypolicy"
                                             className="hover:underline"
                                         >
                                             Privacy Policy
@@ -173,10 +174,10 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link 
-                                            href="/"
+                                            href="/termsconditions"
                                             className="hover:underline"
                                         >
-                                            Terms &amp; Conditions
+                                            Terms & Conditions
                                         </Link>
                                     </li>
                                 </ul>

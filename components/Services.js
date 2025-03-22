@@ -8,8 +8,8 @@ export default function Services() {
         <div className="max-w-4xl mx-auto px-5 m-16">
 
             <div className="text-center">
-                <h2 className="font-semibold text-3xl text-gray-900">Services for progress</h2>
-                <p className="max-w-md mx-auto mt-2 text-gray-500">Explore our offerings to see how our customized approach transforms challenges into opportunities.</p>
+                <h2 className="font-semibold text-3xl text-gray-900">Services for Progress</h2>
+                <p className="max-w-md mx-auto mt-2 text-gray-500">See how our customized offerings turn your ideas into lasting realities.</p>
             </div>
 
 
@@ -46,8 +46,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Detailed Construction Estimating</h3>
-                        <p className="mt-1 text-gray-500"> Leverage advanced technology and veteran expertise to create precise, comprehensive cost estimates that keep projects on budget from inception through completion.</p>
+                        <h3 className="font-semibold text-xl">Full Trade Construction</h3>
+                        <p className="mt-1 text-gray-500"> From framing and concrete to plumbing, electrical, and beyond, our skilled tradespeople deliver
+                            top-quality work across every aspect of your build.
+                        </p>
                     </div>
                 </div>
 
@@ -64,8 +66,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Pre-Construction Planning & Consulting</h3>
-                        <p className="mt-1 text-gray-500"> Collaborate with clients to develop strategic work plans, secure permits, and design project specifications, laying the foundation for a smooth construction process.</p>
+                        <h3 className="font-semibold text-xl">Pre-Construction Strategy</h3>
+                        <p className="mt-1 text-gray-500"> We partner with you to plan every detail—securing permits, refining designs, and setting a clear
+                            path for success before breaking ground.
+                        </p>
                     </div>
                 </div>
 
@@ -97,8 +101,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Project Management & Controls</h3>
-                        <p className="mt-1 text-gray-500">Oversee every phase of your project—from schedule planning and cost monitoring to change management and risk assessment—to ensure timely, efficient execution.</p>
+                        <h3 className="font-semibold text-xl">Advanced Project Management</h3>
+                        <p className="mt-1 text-gray-500">Our veteran-led team oversees schedules, resources, and risks, ensuring smooth execution and
+                            timely delivery at every stage.
+                        </p>
                     </div>
                 </div>
 
@@ -111,8 +117,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Procurement & Vendor Coordination</h3>
-                        <p className="mt-1 text-gray-500">Assist in selecting and managing contractors, vendors, and joint venture partners, ensuring high-quality resources and seamless integration into your project.</p>
+                        <h3 className="font-semibold text-xl">Vendor & Trade Coordination</h3>
+                        <p className="mt-1 text-gray-500">We manage a trusted network of contractors and suppliers, aligning their efforts to keep your
+                            project moving forward without a hitch.
+                        </p>
                     </div>
                 </div>
 
@@ -125,8 +133,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Energy & Utility Infrastructure Projects</h3>
-                        <p className="mt-1 text-gray-500">Apply extensive industry experience to manage large-scale energy, heavy civil, and utility projects, addressing complex challenges with precision and efficiency.</p>
+                        <h3 className="font-semibold text-xl">Energy & Infrastructure Builds</h3>
+                        <p className="mt-1 text-gray-500">Specializing in large-scale energy, utility, and heavy-civil projects, we tackle complex challenges
+                            with proven skill and efficiency.
+                        </p>
                     </div>
                 </div>
 
@@ -140,8 +150,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Facilities Upgrades & Retrofitting</h3>
-                        <p className="mt-1 text-gray-500">Specialize in modernizing operating petroleum, chemical, and industrial facilities by integrating new technologies and systems while minimizing disruptions.</p>
+                        <h3 className="font-semibold text-xl">Facility Modernization</h3>
+                        <p className="mt-1 text-gray-500">Upgrade your industrial, petroleum, or chemical facilities with minimal downtime, integrating
+                            modern systems for peak performance.
+                        </p>
                     </div>
                 </div>
 
@@ -153,8 +165,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Integrated Project Delivery</h3>
-                        <p className="mt-1 text-gray-500">Foster collaboration among client staff, subcontractors, and partners, ensuring every project benefits from shared expertise and a unified approach to problem-solving.</p>
+                        <h3 className="font-semibold text-xl">Collaborative Delivery</h3>
+                        <p className="mt-1 text-gray-500">By uniting clients, trades, and partners, we create a cohesive team effort that drives exceptional
+                            results every time.
+                        </p>
                     </div>
                 </div>
 
@@ -196,8 +210,10 @@ export default function Services() {
                     </svg>
                     </span>
                     <div>
-                        <h3 className="font-semibold text-xl">Sustainable Construction & Environmental Solutions</h3>
-                        <p className="mt-1 text-gray-500">Implement eco-friendly practices and energy-efficient systems that meet modern environmental standards while delivering robust, future-ready infrastructure.</p>
+                        <h3 className="font-semibold text-xl">Sustainable Building Solutions</h3>
+                        <p className="mt-1 text-gray-500">We incorporate green practices and energy-efficient designs, building infrastructure that's both
+                            durable and environmentally responsible.
+                        </p>
                     </div>
                 </div>
 

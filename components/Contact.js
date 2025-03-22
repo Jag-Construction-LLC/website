@@ -16,6 +16,7 @@ export default function Contact() {
                         <p className="max-w-xl mt-3">Let's work together to build something exceptional. We look forward to connecting with you soon!</p>
 
                         <div className="mt-6 space-y-5 md:mt-8">
+                            {/*
                             <p className="flex items-start -mx-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -34,7 +35,7 @@ export default function Contact() {
 
                                 <span className="mx-2 text-white truncate w-72">(123) 456-7890</span>
                             </p>
-
+                            */}
                             <p className="flex items-start -mx-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -43,7 +44,7 @@ export default function Contact() {
                                 <span className="mx-2 text-white truncate w-72">admin@jag-c.com</span>
                             </p>
                         </div>
-
+                        {/*
                         <div className="mt-3 md:mt-8">
                             <h3 className="text-white">Follow us!</h3>
 
@@ -69,6 +70,7 @@ export default function Contact() {
                                 </Link>
                             </div>
                         </div>
+                        */}
                     </div>
                     
                     {/* Contact form */}

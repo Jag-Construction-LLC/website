@@ -62,7 +62,7 @@ export default function ContactForm() {
     };
 
     return(
-        <div className="mt-8 md:mt-0 lg:w-1/2 lg:mx-6">
+        <div className="mt-8 lg:w-1/2 lg:mx-6">
             <div className="w-full px-8 py-5 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl lg:max-w-xl">
                 <h1 className="text-xl font-medium text-gray-700">Contact Form</h1>
 

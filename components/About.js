@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default function About() {
     return (
         <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 my-16">
-            <h2 className="mb-2 text-3xl font-semibold leading-tight text-center text-gray-900">Strengths for success</h2>
-            <p className="max-w-md mx-auto mb-10 text-center text-gray-500">Discover the key attributes that set us apart and drive our unwavering dedication to delivering superior results.</p>
+            <h2 className="mb-2 text-3xl font-semibold leading-tight text-center text-gray-900">Strengths for Success</h2>
+            <p className="max-w-md mx-auto mb-10 text-center text-gray-500">Discover the qualities that set us apart and drive our commitment to superior project delivery.</p>
             <div className="w-full">
                 <div className="flex flex-col w-full mb-10 sm:flex-row">
                     <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
@@ -13,10 +13,12 @@ export default function About() {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-700 rounded-lg"></span>
                             <div className="relative h-full p-5 bg-white border-2 border-green-700 rounded-lg">
                                 <div className="flex items-center -mt-1">
-                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Extensive Field Experience</h3>
+                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Versatile Trade Expertise</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-xs font-medium text-green-700 uppercase">------------</p>
-                                <p className="mb-2 text-gray-600">Our work on a wide variety of fuel projects give us a practical ability to identify, assess, and quantify cost liabilities on even the most complex assignments.</p>
+                                <p className="mb-2 text-gray-600">Our mastery across all construction trades allows us to tackle projects of any scope, delivering
+                                    quality craftsmanship from foundation to finish.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -25,10 +27,12 @@ export default function About() {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-700 rounded-lg"></span>
                             <div className="relative h-full p-5 bg-white border-2 border-green-700 rounded-lg">
                                 <div className="flex items-center -mt-1">
-                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Team Leadership</h3>
+                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Leadership in Collaboration</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-xs font-medium text-green-700 uppercase">------------</p>
-                                <p className="mb-2 text-gray-600">We lead advanced integrated estimating teams, ensuring that every estimate—from conceptual to detailed—is both accurate and comprehensive.</p>
+                                <p className="mb-2 text-gray-600">We orchestrate diverse teams of tradespeople, ensuring every element of your build works in
+                                    harmony for a flawless outcome.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -39,10 +43,12 @@ export default function About() {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gray-800 rounded-lg"></span>
                             <div className="relative h-full p-5 bg-white border-2 border-gray-800 rounded-lg">
                                 <div className="flex items-center -mt-1">
-                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Innovative Processes</h3>
+                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Innovative Execution</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-xs font-medium text-gray-800 uppercase">------------</p>
-                                <p className="mb-2 text-gray-600">We have a proven track record in creating and refining cost estimating and modeling procedures that align seamlessly with client requirements.</p>
+                                <p className="mb-2 text-gray-600">Our proven approach integrates advanced tools and techniques to streamline construction,
+                                    keeping your project on track and on budget.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -51,10 +57,12 @@ export default function About() {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-900 rounded-lg"></span>
                             <div className="relative h-full p-5 bg-white border-2 border-blue-900 rounded-lg">
                                 <div className="flex items-center -mt-1">
-                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Complex Project Management</h3>
+                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Complex Project Delivery</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-xs font-medium text-blue-900 uppercase">------------</p>
-                                <p className="mb-2 text-gray-600">Our success on large-scale, heavy-civil, and utility projects, as well as our experience with oil, gas, petroleum, and chemical plant upgrades, prove our capability to manage multifaceted construction endeavors.</p>
+                                <p className="mb-2 text-gray-600">From residential builds to large-scale commercial, heavy-civil, and industrial projects, we thrive
+                                    on turning ambitious plans into reality.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -63,10 +71,12 @@ export default function About() {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gray-800 rounded-lg"></span>
                             <div className="relative h-full p-5 bg-white border-2 border-gray-800 rounded-lg">
                                 <div className="flex items-center -mt-1">
-                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Collaborative Expertise</h3>
+                                    <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">Client-Centered Partnership</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-xs font-medium text-gray-800 uppercase">------------</p>
-                                <p className="mb-2 text-gray-600">By integrating client staff, subcontractors, and joint venture partners, we consistently deliver projects that exceed expectations.</p>
+                                <p className="mb-2 text-gray-600">By working closely with you and our network of skilled subcontractors, we bring your vision to
+                                    life while exceeding expectations.
+                                </p>
                             </div>
                         </div>
                     </div>
