@@ -57,7 +57,7 @@ export default function Home() {
         <section className="pt-16 bg-gray-100">
             <div 
                 className="max-w-screen-xl flex flex-col items-center 
-                    justify-between px-4 space-y-10 md:space-y-0
+                    justify-between px-4 space-y-10 md:space-y-0 md:space-x-5
                     md:flex-row mx-auto md:min-width-10 md:items-stretch"
             >
                 <div 
