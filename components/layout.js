@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export const siteTitle = 'Jag Construction';
 export const siteDescription = 'The Jag Construction LLC company website';
@@ -22,6 +23,7 @@ export default function Layout({ children, home }) {
                 { children }
                 <Footer />
                 <SpeedInsights />
+                <Analytics />
             </main>
         </div>
     );
