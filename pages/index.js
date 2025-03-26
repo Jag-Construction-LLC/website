@@ -296,12 +296,12 @@ export default function Home() {
             {/* Centered overlay content */}
             <div 
                 className="relative z-10 flex h-full flex-col items-center 
-                    justify-center text-white px-4 space-y-0"
+                    justify-center text-center text-white px-4 space-y-0"
             >
                 <h1 className="text-3xl md:text-4xl font-bold">
                     Let's get your project started.
                 </h1>
-                <p className="max-w-xl mt-4 text-lg text-center">
+                <p className="max-w-xl mt-4 text-lg">
                     Discover how our veteran-led team's unique strengths and steadfast commitment to exceptional
                     craftsmanship seamlessly transform your vision into extraordinary reality.
                 </p>
