@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const siteTitle = 'Jag Construction';
 export const siteDescription = 'The Jag Construction LLC company website';
@@ -16,11 +17,12 @@ export default function Layout({ children, home }) {
                 <link rel="icon" href="/favicon3.svg" />
             </Head>
 
-            <Navbar/>
-
-            <main>{ children }</main>
-
-            <Footer />
+            <main>
+                <Navbar/>
+                { children }
+                <Footer />
+                <SpeedInsights />
+            </main>
         </div>
     );
 }
