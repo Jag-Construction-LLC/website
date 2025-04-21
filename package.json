@@ -11,7 +11,7 @@
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "next": "latest",
-    "playwright": "^1.51.1",
+    "playwright": "^1.52.0",
     "react": "latest",
     "react-dom": "latest"
   },
