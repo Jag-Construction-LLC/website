@@ -24,7 +24,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.4",
     "tailwindcss": "^4.1.7",
     "wait-on": "^8.0.3"
   }
